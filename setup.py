@@ -1,15 +1,21 @@
-from setuptools import find_packages, setup
-
-with open("./README.md","r") as f:
-    long_description = f.read()
+from setuptools import setup, find_packages
 
 setup(
     name="chileanfakeinfo",
-    version="0.0.1",
-    description="Fake info from chile for testing",
-    package_dir={"":"chileanfakeinfo"},
-    packages=find_packages(where="chileanfakeinfo"),
-    long_description=long_description,
+    version="0.1.0",
+    packages=find_packages(exclude=["example"]),
+    install_requires=[],
+    author="Matias Tillerias",
+    author_email="matias.tillerias@owasp.org",
+    description="Generador de datos ficticios chilenos para pruebas y desarrollo.",
+    long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Matías Bastian Ezequiel Tillerias Ley", 
-) 
+    url="https://github.com/MatiasTilleriasLey/chilean-fake-info",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires=">=3.6",
+)
+

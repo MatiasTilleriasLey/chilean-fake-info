@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+chileanfakeinfo/__init__.py
+chileanfakeinfo.egg-info/PKG-INFO
+chileanfakeinfo.egg-info/SOURCES.txt
+chileanfakeinfo.egg-info/dependency_links.txt
+chileanfakeinfo.egg-info/top_level.txt
+chileanfakeinfo/provider/__init__.py
+chileanfakeinfo/provider/address.py
+chileanfakeinfo/provider/bank.py
+chileanfakeinfo/provider/creditcardgen.py
+chileanfakeinfo/provider/dates.py
+chileanfakeinfo/provider/numGen.py
+chileanfakeinfo/provider/rutgen.py

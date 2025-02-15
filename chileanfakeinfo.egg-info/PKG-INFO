@@ -24,7 +24,7 @@ Dynamic: summary
 
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/) ![Python Library](https://img.shields.io/badge/python-Library-yellow?logo=python&logoColor=f5da42)
 
-![Logo](./img/IMG_3402-removebg-preview.svg)
+![Logo](https://raw.githubusercontent.com/MatiasTilleriasLey/chilean-fake-info/main/img/IMG_3402-removebg-preview.svg)
 
 "Chilean fake info" is a python library used to generate test information of Chilean origin
 
@@ -93,9 +93,9 @@ Using Online resources you can verify the CC generated, as you can see the all a
 
 <https://dnschecker.org/credit-card-validator.php>
 
-![credit card Verification](./img/cc1.png)
-![credit card Verification](./img/cc2.png)
-![credit card Verification](./img/cc3.png)
+![credit card Verification](https://raw.githubusercontent.com/MatiasTilleriasLey/chilean-fake-info/d67727be4beb4d01bda4fe6beef3cb8681e59882/img/cc1.png)
+![credit card Verification](https://raw.githubusercontent.com/MatiasTilleriasLey/chilean-fake-info/d67727be4beb4d01bda4fe6beef3cb8681e59882/img/cc2.png)
+![credit card Verification](https://raw.githubusercontent.com/MatiasTilleriasLey/chilean-fake-info/d67727be4beb4d01bda4fe6beef3cb8681e59882/img/cc3.png)
 
 If the only thing that you need to check is if that the CC is Valid or not you can use the `verifyCreditCard()` function. This function resive one parameter and return a `bool` depending if the card is valid or not
 

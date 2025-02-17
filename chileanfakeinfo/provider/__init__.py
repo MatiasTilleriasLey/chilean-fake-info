@@ -9,3 +9,4 @@ from .creditcardgen import generateExpirationDate
 from .creditcardgen import getCreditCardFull
 from .address import regions
 from .address import addressName
+from .name import getName

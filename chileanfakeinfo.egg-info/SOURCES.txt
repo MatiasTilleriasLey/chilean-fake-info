@@ -11,5 +11,6 @@ chileanfakeinfo/provider/address.py
 chileanfakeinfo/provider/bank.py
 chileanfakeinfo/provider/creditcardgen.py
 chileanfakeinfo/provider/dates.py
+chileanfakeinfo/provider/name.py
 chileanfakeinfo/provider/numGen.py
 chileanfakeinfo/provider/rutgen.py

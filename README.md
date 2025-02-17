@@ -178,6 +178,22 @@ print(regions())
 >> {'1': {'name': 'Tarapacá'}, '2': {'name': 'Antofagasta'}, '3': {'name': 'Atacama'}, '4': {'name': 'Coquimbo'}, '5': {'name': 'Valparaíso'}, '6': {'name': "O'Higgins"}, '7': {'name': 'Maule'}, '8': {'name': 'Biobío'}, '9': {'name': 'Araucanía'}, '10': {'name': 'Los Lagos'}, '11': {'name': 'Aysén'}, '12': {'name': 'Magallanes'}, 'RM': {'name': 'Santiago'}, '14': {'name': 'Los Rios'}, '15': {'name': 'Arica y Parinacota'}}
 
 ```
+## Name Generator
+
+If you need to generate a name, you can use the `getName` function, this function require just the `gender` parameter, and the posible values are `men` or `women`, and it will return a full name with two names and two lastnames
+
+```python
+from chileanfakeinfo inport getName
+
+print(getName(gender="men"))
+
+>> Alfonso Clemente Suárez Santibáñez
+
+print(getName(gender="women"))
+
+>>Celia Iliana Godoy Coloma
+
+```
 
 ## Authors
 

@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: chileanfakeinfo
-Version: 0.1.0
+Version: 1.0.0
 Summary: Generador de datos ficticios chilenos para pruebas y desarrollo.
 Home-page: https://github.com/MatiasTilleriasLey/chilean-fake-info
 Author: Matias Tillerias
@@ -8,7 +8,7 @@ Author-email: matias.tillerias@owasp.org
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.6
+Requires-Python: >=3.0
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Dynamic: author

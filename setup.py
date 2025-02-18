@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="chileanfakeinfo",
-    version="1.0.0",
+    version="1.0.0.1",
     packages=find_packages(exclude=["example"]),
     install_requires=[],
     author="Matias Tillerias",

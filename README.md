@@ -26,6 +26,42 @@ pip install chileanfakeinfo
 
 ---
 
+## Command Line Interface (CLI)
+
+After installing the library, two terminal commands become available:
+`chilean-fake-info` and its short alias `cfi`. They let you generate data
+directly from your terminal without writing any Python.
+
+```bash
+# RUT
+cfi rut                       # Person RUT          -> 285313732
+cfi rut -e                    # Enterprise RUT      -> 717534115
+cfi rut -d                    # Dotted format       -> 23.678.860-1
+cfi rut -e -d -n 3            # 3 dotted enterprise RUTs
+
+# Credit cards
+cfi banks                     # List available banks
+cfi creditcard                # Random credit card number
+cfi cc -b "Banco de Chile" -w visa     # Specific bank and network (cc = alias)
+cfi creditcard -f             # Full card: number | CVV | expiration date
+cfi verify 5222102881454263   # Validate a card (exit code 0 = valid, 1 = invalid)
+cfi cvv                       # Generate a CVV
+cfi exp                       # Generate an expiration date
+
+# Addresses and regions
+cfi address                   # Random Chilean address
+cfi regions                   # List Chilean regions
+
+# Names
+cfi name -g men               # Male full name
+cfi name -g women -n 5        # 5 female full names
+```
+
+Most subcommands accept `-n / --number` to generate several items at once.
+Run `cfi --help` or `cfi <command> --help` for the full list of options.
+
+---
+
 ## Usage
 
 ### Generating a Chilean RUT

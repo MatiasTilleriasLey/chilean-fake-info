@@ -190,5 +190,4 @@ def bankBinList() -> dict:
                 "552559"
             ]
         }
-    
-}
+    }

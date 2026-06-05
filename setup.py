@@ -5,6 +5,12 @@ setup(
     version="1.0.0.1",
     packages=find_packages(exclude=["example"]),
     install_requires=[],
+    entry_points={
+        "console_scripts": [
+            "chilean-fake-info=chileanfakeinfo.cli:main",
+            "cfi=chileanfakeinfo.cli:main",
+        ],
+    },
     author="Matias Tillerias",
     author_email="matias.tillerias@owasp.org",
     description="Generador de datos ficticios chilenos para pruebas y desarrollo.",
